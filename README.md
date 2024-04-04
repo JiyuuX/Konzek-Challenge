@@ -1,6 +1,11 @@
 # Konzek-Challenge
 
-P.S. This project made for a company's job application challenge project! Not personal project! <br /> <br /> <br /> <br />
+P.S. This project made for a company's job application challenge project! Not personal project! <br /> <br /> <br /> 
+
+Assignment: Building a Concurrent Web Service in Go <br /> 
+Scenario: <br /> 
+You are working on a project that requires building a high-performance web service in Go. The service will accept incoming HTTP requests, process data concurrently, and store it in a database. The application should be scalable, maintainable, and well-tested.
+
 
 NOTE : <br />
 The basic HTTP server is installed using the net/http package. Endpoints have been created that process POST, GET, DELETE, UPDATE requests. <br />
