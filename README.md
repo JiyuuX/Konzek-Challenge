@@ -108,7 +108,10 @@ After registration, Postgres : <br />
 ![image](https://github.com/JiyuuX/Konzek-Challenge/assets/139239394/feaee57f-bb0e-43eb-8036-a5a4f03cd25a) <br />   <br />   <br />  
 
 LAST THOUGHTS : <br /> 
-In this project, builded a high-performance web service in Go. The service will accept incoming HTTP requests, process data concurrently, and store it in a database. For API documentation, Swagger can be used for auto-documentation, however, I did it via Postman.
+In this project, builded a high-performance web service in Go. The service will accept incoming HTTP requests, process data concurrently, and store it in a database. For API documentation, Swagger can be used for auto-documentation, however, I did it via Postman. <br /> 
+
+In the codes, I added the information required for database connection directly to the code section - since it is a project within the scope of the challenge project. This is actually not a safe way. It is safer to use environment variables rather than writing sensitive information (such as database credentials) directly into the code. This can help you build a better application from a security perspective and prevents sensitive information from leaking in the codebase. Environment variables provide configuration information to applications running on a system through variables in the environment. This information can be hidden from other applications running on the system or from system administrators. Therefore, storing sensitive data such as database credentials, APIs keys through environment variables increases the security of the code. <br /> 
+
 Since the scope of the Challenge project is very, very broad, the project has been terminated by the author in here.
 
 
