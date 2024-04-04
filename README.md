@@ -66,7 +66,9 @@ After Delete: <br />
 
 NOTE : <br />
 Authentication (OAuth2 or JWT) is additionally requested within the scope of the project. The JWT implementation is available in the "konzek-challenge-jwt" directory. <br /> <br />
-FOR KONZEK-CHALLENGE-JWT: <br /> 
+FOR KONZEK-CHALLENGE-JWT: <br /> <br /> 
+A simple authorization process was implemented by generating JWT tokens, but session management or JWT time limitation (expiration) was not implemented, for example, to protect against attacks during login verification <br />  <br /> 
+
 WITH JWT Authentication : <br />
 API ENDPOINTS : <br />
 / (ROOT) <br />
@@ -106,7 +108,7 @@ After registration, Postgres : <br />
 ![image](https://github.com/JiyuuX/Konzek-Challenge/assets/139239394/feaee57f-bb0e-43eb-8036-a5a4f03cd25a) <br />   <br />   <br />  
 
 LAST THOUGHTS : <br /> 
-In this project, a simple authorization process was carried out by generating JWT tokens, but session management or JWT time limitation (expiration) was not implemented, for example, to protect against attacks during login verification. For API documentation, Swagger can be used for auto-documentation, however,  I did it via Postman. <br /> 
+In this project, builded a high-performance web service in Go. The service will accept incoming HTTP requests, process data concurrently, and store it in a database. For API documentation, Swagger can be used for auto-documentation, however, I did it via Postman.
 Since the scope of the Challenge project is very, very broad, the project has been terminated by the author in here.
 
 
