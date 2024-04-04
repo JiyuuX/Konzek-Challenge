@@ -11,7 +11,7 @@ A record is kept for errors and important events. However, monitoring tools such
 Basic security measures have been implemented. Encryption (bcrypt), JWT authentication and basic authorization have been implemented. (at konzek-challenge-jwt) <br /> <br />
 
 NOTE : <br />
-The Challenge project consists of two independent directories: the directory with authorization (konzek-challenge-jwt) and the directory without (konzek-challenge). <br /> <br />
+The Challenge project consists of two independent directories: the directory with authorization (JWT) (konzek-challenge-jwt) and the directory without JWT (konzek-challenge). <br /> <br />
 
 RUN <br />
 "go mod" automatically detects its dependencies in the project and creates a file called go.mod and stores it there. This file contains the versions and dependency information of all packages used. <br />
