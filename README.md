@@ -66,7 +66,7 @@ WITH JWT Authentication : <br />
 API ENDPOINTS : <br />
 / (ROOT) <br />
 /register  <br />
-/loging  <br /> <br /> 
+/login  <br /> <br /> 
 
 User registration system was created. To make an API request, the user must first register (username, password, email). The user can register if the username is unique. The registered user is saved in the database. (table name in the database is users) (user password is hashed and saved in the database) and JTW token is automatically generated.
 The user cannot make GET, POST, UPDATE, DELETE requests without registering.  <br />
